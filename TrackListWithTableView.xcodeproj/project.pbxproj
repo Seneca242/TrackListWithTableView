@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		04C330E527733AA700162DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330E427733AA700162DFA /* AppDelegate.swift */; };
 		04C330E727733AA700162DFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330E627733AA700162DFA /* SceneDelegate.swift */; };
-		04C330E927733AA700162DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330E827733AA700162DFA /* ViewController.swift */; };
 		04C330EC27733AA700162DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C330EA27733AA700162DFA /* Main.storyboard */; };
 		04C330EE27733AA900162DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C330ED27733AA900162DFA /* Assets.xcassets */; };
 		04C330F127733AA900162DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C330EF27733AA900162DFA /* LaunchScreen.storyboard */; };
+		04C330FD27733BE900162DFA /* TrackListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330FC27733BE900162DFA /* TrackListTableViewController.swift */; };
+		04C330FF27733C1C00162DFA /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330FE27733C1C00162DFA /* TrackDetailsViewController.swift */; };
+		04C33102277363E300162DFA /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C33101277363E300162DFA /* TrackList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04C330E127733AA700162DFA /* TrackListWithTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListWithTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C330E427733AA700162DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C330E627733AA700162DFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04C330E827733AA700162DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C330EB27733AA700162DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04C330ED27733AA900162DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C330F027733AA900162DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C330F227733AA900162DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C330FC27733BE900162DFA /* TrackListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewController.swift; sourceTree = "<group>"; };
+		04C330FE27733C1C00162DFA /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
+		04C33101277363E300162DFA /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,57 @@
 		04C330E327733AA700162DFA /* TrackListWithTableView */ = {
 			isa = PBXGroup;
 			children = (
-				04C330E427733AA700162DFA /* AppDelegate.swift */,
-				04C330E627733AA700162DFA /* SceneDelegate.swift */,
-				04C330E827733AA700162DFA /* ViewController.swift */,
-				04C330EA27733AA700162DFA /* Main.storyboard */,
-				04C330ED27733AA900162DFA /* Assets.xcassets */,
-				04C330EF27733AA900162DFA /* LaunchScreen.storyboard */,
-				04C330F227733AA900162DFA /* Info.plist */,
+				04C330F827733ADD00162DFA /* ViewControllers */,
+				04C330F927733AF800162DFA /* Storyboards */,
+				04C33100277363AE00162DFA /* Model */,
+				04C330FB27733B2500162DFA /* Supportings */,
+				04C330FA27733B1400162DFA /* Sources */,
 			);
 			path = TrackListWithTableView;
+			sourceTree = "<group>";
+		};
+		04C330F827733ADD00162DFA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04C330FC27733BE900162DFA /* TrackListTableViewController.swift */,
+				04C330FE27733C1C00162DFA /* TrackDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04C330F927733AF800162DFA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04C330EA27733AA700162DFA /* Main.storyboard */,
+				04C330EF27733AA900162DFA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04C330FA27733B1400162DFA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04C330ED27733AA900162DFA /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04C330FB27733B2500162DFA /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				04C330E427733AA700162DFA /* AppDelegate.swift */,
+				04C330E627733AA700162DFA /* SceneDelegate.swift */,
+				04C330F227733AA900162DFA /* Info.plist */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		04C33100277363AE00162DFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C33101277363E300162DFA /* TrackList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C330E927733AA700162DFA /* ViewController.swift in Sources */,
 				04C330E527733AA700162DFA /* AppDelegate.swift in Sources */,
 				04C330E727733AA700162DFA /* SceneDelegate.swift in Sources */,
+				04C330FF27733C1C00162DFA /* TrackDetailsViewController.swift in Sources */,
+				04C33102277363E300162DFA /* TrackList.swift in Sources */,
+				04C330FD27733BE900162DFA /* TrackListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +339,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KGB5T28U9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListWithTableView/Info.plist;
+				INFOPLIST_FILE = TrackListWithTableView/Supportings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +367,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KGB5T28U9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListWithTableView/Info.plist;
+				INFOPLIST_FILE = TrackListWithTableView/Supportings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
