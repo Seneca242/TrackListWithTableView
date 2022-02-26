@@ -8,18 +8,15 @@
 import UIKit
 
 class TrackDetailsViewController: UIViewController {
-
-    var trackList: TrackList!
     
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var imageLabel: UILabel!
     
-   
+    let trackList: Track!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageView.image = UIImage(named: trackList.title)
-        imageLabel.text = trackList.title
+        
        
     }
     

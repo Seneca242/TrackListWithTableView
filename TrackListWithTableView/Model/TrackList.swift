@@ -5,7 +5,7 @@
 //  Created by Дмитрий Дмитрий on 22.12.2021.
 //
 
-struct TrackList {
+struct Track {
     let artist: String
     let song: String
     
@@ -13,18 +13,37 @@ struct TrackList {
         "\(artist) - \(song)"
     }
     
-    static func getTrackList() -> [TrackList] {
+    static func getTrackList() -> [Track] {
         [
-            TrackList(artist: "Alberto Ruiz", song: "7 Elements (Original Mix)"),
-            TrackList(artist: "Dave Wincent", song: "Red Eye (Original Mix)"),
-            TrackList(artist: "E-Spectro", song: "End Station (Original Mix)"),
-            TrackList(artist: "Edna Ann", song: "Phasma (Konstantin Yoodza Remix)"),
-            TrackList(artist: "Ilija Djokovic", song: "Delusion (Original Mix)"),
-            TrackList(artist: "John Baptiste", song: "Mycelium (Original Mix)"),
-            TrackList(artist: "Lane 8", song: "Fingerprint (Original Mix)"),
-            TrackList(artist: "Mac Vaughn", song: "Pink Is My Favorite Color (Alex Stein Remix)"),
-            TrackList(artist: "Metodi Hristov, Gallya", song: "Badmash (Original Mix)"),
-            TrackList(artist: "Veerus, Maxie Devine", song: "Nightmare (Original Mix)")
+            Track(artist: "Alberto Ruiz", song: "7 Elements (Original Mix)"),
+            Track(artist: "Dave Wincent", song: "Red Eye (Original Mix)"),
+            Track(artist: "E-Spectro", song: "End Station (Original Mix)"),
+            Track(artist: "Edna Ann", song: "Phasma (Konstantin Yoodza Remix)"),
+            Track(artist: "Ilija Djokovic", song: "Delusion (Original Mix)"),
+            Track(artist: "John Baptiste", song: "Mycelium (Original Mix)"),
+            Track(artist: "Lane 8", song: "Fingerprint (Original Mix)"),
+            Track(artist: "Mac Vaughn", song: "Pink Is My Favorite Color (Alex Stein Remix)"),
+            Track(artist: "Metodi Hristov, Gallya", song: "Badmash (Original Mix)"),
+            Track(artist: "Veerus, Maxie Devine", song: "Nightmare (Original Mix)")
         ]
     }
 }
+
+
+
+
+
+
+/*
+Alberto Ruiz 7 Elements (Original Mix)
+Dave Wincent Red Eye (Original Mix)
+E-Spectro End Station (Original Mix)
+Edna Ann Phasma (Konstantin Yoodza Remix)
+Ilija Djokovic Delusion (Original Mix)
+John Baptiste Mycelium (Original Mix)
+Lane 8 Fingerprint (Original Mix)
+Mac Vaughn Pink Is My Favorite Color (Alex Stein Remix)
+Metodi Hristov, Gallya Badmash (Original Mix)
+Veerus, Maxie Devine Nightmare (Original Mix)
+*/
+

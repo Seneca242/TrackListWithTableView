@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0468FC9627CAA55900BBB514 /* TrackList2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468FC9527CAA55900BBB514 /* TrackList2TableViewController.swift */; };
 		04C330E527733AA700162DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330E427733AA700162DFA /* AppDelegate.swift */; };
 		04C330E727733AA700162DFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330E627733AA700162DFA /* SceneDelegate.swift */; };
 		04C330EC27733AA700162DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C330EA27733AA700162DFA /* Main.storyboard */; };
 		04C330EE27733AA900162DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C330ED27733AA900162DFA /* Assets.xcassets */; };
 		04C330F127733AA900162DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C330EF27733AA900162DFA /* LaunchScreen.storyboard */; };
-		04C330FD27733BE900162DFA /* TrackListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330FC27733BE900162DFA /* TrackListTableViewController.swift */; };
 		04C330FF27733C1C00162DFA /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C330FE27733C1C00162DFA /* TrackDetailsViewController.swift */; };
 		04C33102277363E300162DFA /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C33101277363E300162DFA /* TrackList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0468FC9527CAA55900BBB514 /* TrackList2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList2TableViewController.swift; sourceTree = "<group>"; };
 		04C330E127733AA700162DFA /* TrackListWithTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListWithTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C330E427733AA700162DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C330E627733AA700162DFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		04C330ED27733AA900162DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C330F027733AA900162DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C330F227733AA900162DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C330FC27733BE900162DFA /* TrackListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewController.swift; sourceTree = "<group>"; };
 		04C330FE27733C1C00162DFA /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 		04C33101277363E300162DFA /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +72,7 @@
 		04C330F827733ADD00162DFA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				04C330FC27733BE900162DFA /* TrackListTableViewController.swift */,
+				0468FC9527CAA55900BBB514 /* TrackList2TableViewController.swift */,
 				04C330FE27733C1C00162DFA /* TrackDetailsViewController.swift */,
 			);
 			path = ViewControllers;
@@ -186,9 +186,9 @@
 			files = (
 				04C330E527733AA700162DFA /* AppDelegate.swift in Sources */,
 				04C330E727733AA700162DFA /* SceneDelegate.swift in Sources */,
+				0468FC9627CAA55900BBB514 /* TrackList2TableViewController.swift in Sources */,
 				04C330FF27733C1C00162DFA /* TrackDetailsViewController.swift in Sources */,
 				04C33102277363E300162DFA /* TrackList.swift in Sources */,
-				04C330FD27733BE900162DFA /* TrackListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
